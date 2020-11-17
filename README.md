@@ -22,8 +22,9 @@ Make sure you have access to your computer as data export from Sticky Password i
 #### Converting Sticky Password's .txt to .csv
 
 1. Clone this repo.
-2. `npm start /directory/to/MainDatabase.txt`
-3. Your passwords can now be found in `./passwords.csv`. Keep this file safe as it contains all your passwords!
+2. `npm install`
+3. `npm start /directory/to/MainDatabase.txt`
+4. Your passwords can now be found in `./passwords.csv`. Keep this file safe as it contains all your passwords!
 
 ##### Passwords only
 This repo converts only passwords to the .csv file. Other identities, bookmarks or secure memos are not stored in passwords.csv and have to be transferred manually.
